@@ -1,6 +1,6 @@
 Real-Time Hand Gesture Detection
 ================================
-The code captures frames using a web camera (tested on mac's camera) and outputs a video with a number designates the number of pointed finger. For example, a fist corresponds to 0 and an open hand to 5.
+The code captures frames using a web camera (tested on laptop's camera) and outputs a video with a number designates the number of pointed finger. For example, a fist corresponds to 0 and an open hand to 5.
 
 This project is written in Python 2.7. The following libraries are used in this project and neccessary to be add to your computer:
 1) Time - usually comes with Python 2.7
@@ -19,10 +19,8 @@ opencv documentation http://docs.opencv.org/
 [3] OpenCv Documentation - Miscellaneous Image Transformation
 http://docs.opencv.org/modules/imgproc/doc/miscellaneous_transformations.html
 [4] OpenCv Documentation - Morphological Operations http://docs.opencv.org/trunk/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html
-[5] Suzuki, S. and Abe, K., Topological Structural Analysis of Digitized Binary Images by Border Following. CVGIP 30 1, pp 32-46 (1985)
 
-For any question related to the code please contact via email:
-sasha7064570@gmail.com
 
-Sasha Gazman
+
+
  
