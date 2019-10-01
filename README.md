@@ -13,5 +13,4 @@ This project is written in Python 2.7. The following libraries are used in this 
 3) NumPy (1.8.0rc1) - http://www.numpy.org
 
 
-
- 
+# Happy Coding !
