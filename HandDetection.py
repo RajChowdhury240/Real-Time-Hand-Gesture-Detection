@@ -1,8 +1,10 @@
+
 import cv2
 import numpy as np
 import time
 
 #Open Camera object
+
 cap = cv2.VideoCapture(0)
 
 #Decrease frame size
@@ -49,6 +51,7 @@ while(1):
     blur = cv2.blur(frame,(3,3))
  	
  	#Convert to HSV color space
+	
     hsv = cv2.cvtColor(blur,cv2.COLOR_BGR2HSV)
     
     #Create a binary image with where white will be skin colors and rest is black
@@ -100,6 +103,7 @@ while(1):
     defects = cv2.convexityDefects(cnts,hull2)
     
     #Get defect points and draw them in the original image
+
     FarDefect = []
     for i in range(defects.shape[0]):
         s,e,f,d = defects[i,0]
@@ -175,6 +179,7 @@ while(1):
     #cv2.putText(frame,'finger8',tuple(finger[7]),font,2,(255,255,255),2)
         
     #Print bounding rectangle
+
     x,y,w,h = cv2.boundingRect(cnts)
     img = cv2.rectangle(frame,(x,y),(x+w,y+h),(0,255,0),2)
     
